@@ -12,7 +12,49 @@
 		92617D65228221F80056D27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92617D63228221F80056D27E /* Main.storyboard */; };
 		92617D67228221F90056D27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92617D66228221F90056D27E /* Assets.xcassets */; };
 		92617D6A228221F90056D27E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92617D68228221F90056D27E /* LaunchScreen.storyboard */; };
+		92617D75228223690056D27E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617D74228223690056D27E /* WebKit.framework */; };
+		92617DF52282749C0056D27E /* Openpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DF42282749C0056D27E /* Openpay.a */; };
+		92617DFF228274BE0056D27E /* OPCard.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DF6228274BE0056D27E /* OPCard.h */; };
+		92617E00228274BE0056D27E /* Openpay-Prefix.pch in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DF7228274BE0056D27E /* Openpay-Prefix.pch */; };
+		92617E01228274BE0056D27E /* OPAddress.m in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DF8228274BE0056D27E /* OPAddress.m */; };
+		92617E02228274BE0056D27E /* OPAddress.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DF9228274BE0056D27E /* OPAddress.h */; };
+		92617E03228274BE0056D27E /* OPToken.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DFA228274BE0056D27E /* OPToken.h */; };
+		92617E04228274BE0056D27E /* OPToken.m in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DFB228274BE0056D27E /* OPToken.m */; };
+		92617E05228274BE0056D27E /* OPCard.m in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DFC228274BE0056D27E /* OPCard.m */; };
+		92617E06228274BE0056D27E /* Openpay.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DFD228274BE0056D27E /* Openpay.h */; };
+		92617E07228274BE0056D27E /* Openpay.m in Frameworks */ = {isa = PBXBuildFile; fileRef = 92617DFE228274BE0056D27E /* Openpay.m */; };
+		92617E09228274DF0056D27E /* Openpay in Sources */ = {isa = PBXBuildFile; fileRef = 92617E08228274DE0056D27E /* Openpay */; };
+		92ECC5B8228300550004AF7C /* OPAddress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DF9228274BE0056D27E /* OPAddress.h */; };
+		92ECC5B9228300550004AF7C /* OPAddress.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DF8228274BE0056D27E /* OPAddress.m */; };
+		92ECC5BA228300550004AF7C /* OPCard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DF6228274BE0056D27E /* OPCard.h */; };
+		92ECC5BB228300550004AF7C /* OPCard.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DFC228274BE0056D27E /* OPCard.m */; };
+		92ECC5BC228300550004AF7C /* Openpay-Prefix.pch in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DF7228274BE0056D27E /* Openpay-Prefix.pch */; };
+		92ECC5BD228300550004AF7C /* Openpay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DFD228274BE0056D27E /* Openpay.h */; };
+		92ECC5BE228300550004AF7C /* Openpay.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DFE228274BE0056D27E /* Openpay.m */; };
+		92ECC5BF228300550004AF7C /* OPToken.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DFA228274BE0056D27E /* OPToken.h */; };
+		92ECC5C0228300550004AF7C /* OPToken.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92617DFB228274BE0056D27E /* OPToken.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92ECC5B72283000A0004AF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				92ECC5B8228300550004AF7C /* OPAddress.h in CopyFiles */,
+				92ECC5B9228300550004AF7C /* OPAddress.m in CopyFiles */,
+				92ECC5BA228300550004AF7C /* OPCard.h in CopyFiles */,
+				92ECC5BB228300550004AF7C /* OPCard.m in CopyFiles */,
+				92ECC5BC228300550004AF7C /* Openpay-Prefix.pch in CopyFiles */,
+				92ECC5BD228300550004AF7C /* Openpay.h in CopyFiles */,
+				92ECC5BE228300550004AF7C /* Openpay.m in CopyFiles */,
+				92ECC5BF228300550004AF7C /* OPToken.h in CopyFiles */,
+				92ECC5C0228300550004AF7C /* OPToken.m in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		92617D5C228221F70056D27E /* OpenpayPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenpayPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +64,19 @@
 		92617D66228221F90056D27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92617D69228221F90056D27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92617D6B228221F90056D27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92617D74228223690056D27E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		92617D7B228223AE0056D27E /* OpenpayPoC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenpayPoC-Bridging-Header.h"; sourceTree = "<group>"; };
+		92617DF42282749C0056D27E /* Openpay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Openpay.a; sourceTree = "<group>"; };
+		92617DF6228274BE0056D27E /* OPCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OPCard.h; path = Openpay/OPCard.h; sourceTree = "<group>"; };
+		92617DF7228274BE0056D27E /* Openpay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Openpay-Prefix.pch"; path = "Openpay/Openpay-Prefix.pch"; sourceTree = "<group>"; };
+		92617DF8228274BE0056D27E /* OPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OPAddress.m; path = Openpay/OPAddress.m; sourceTree = "<group>"; };
+		92617DF9228274BE0056D27E /* OPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OPAddress.h; path = Openpay/OPAddress.h; sourceTree = "<group>"; };
+		92617DFA228274BE0056D27E /* OPToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OPToken.h; path = Openpay/OPToken.h; sourceTree = "<group>"; };
+		92617DFB228274BE0056D27E /* OPToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OPToken.m; path = Openpay/OPToken.m; sourceTree = "<group>"; };
+		92617DFC228274BE0056D27E /* OPCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OPCard.m; path = Openpay/OPCard.m; sourceTree = "<group>"; };
+		92617DFD228274BE0056D27E /* Openpay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Openpay.h; path = Openpay/Openpay.h; sourceTree = "<group>"; };
+		92617DFE228274BE0056D27E /* Openpay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Openpay.m; path = Openpay/Openpay.m; sourceTree = "<group>"; };
+		92617E08228274DE0056D27E /* Openpay */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Openpay; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +84,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92617DFF228274BE0056D27E /* OPCard.h in Frameworks */,
+				92617E00228274BE0056D27E /* Openpay-Prefix.pch in Frameworks */,
+				92617E01228274BE0056D27E /* OPAddress.m in Frameworks */,
+				92617E02228274BE0056D27E /* OPAddress.h in Frameworks */,
+				92617E03228274BE0056D27E /* OPToken.h in Frameworks */,
+				92617E04228274BE0056D27E /* OPToken.m in Frameworks */,
+				92617E05228274BE0056D27E /* OPCard.m in Frameworks */,
+				92617E06228274BE0056D27E /* Openpay.h in Frameworks */,
+				92617E07228274BE0056D27E /* Openpay.m in Frameworks */,
+				92617DF52282749C0056D27E /* Openpay.a in Frameworks */,
+				92617D75228223690056D27E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +106,7 @@
 			children = (
 				92617D5E228221F70056D27E /* OpenpayPoC */,
 				92617D5D228221F70056D27E /* Products */,
+				92617D71228223580056D27E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,34 @@
 		92617D5E228221F70056D27E /* OpenpayPoC */ = {
 			isa = PBXGroup;
 			children = (
+				92617E08228274DE0056D27E /* Openpay */,
 				92617D5F228221F80056D27E /* AppDelegate.swift */,
 				92617D61228221F80056D27E /* ViewController.swift */,
 				92617D63228221F80056D27E /* Main.storyboard */,
 				92617D66228221F90056D27E /* Assets.xcassets */,
 				92617D68228221F90056D27E /* LaunchScreen.storyboard */,
 				92617D6B228221F90056D27E /* Info.plist */,
+				92617D7B228223AE0056D27E /* OpenpayPoC-Bridging-Header.h */,
 			);
 			path = OpenpayPoC;
+			sourceTree = "<group>";
+		};
+		92617D71228223580056D27E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92617DF9228274BE0056D27E /* OPAddress.h */,
+				92617DF8228274BE0056D27E /* OPAddress.m */,
+				92617DF6228274BE0056D27E /* OPCard.h */,
+				92617DFC228274BE0056D27E /* OPCard.m */,
+				92617DF7228274BE0056D27E /* Openpay-Prefix.pch */,
+				92617DFD228274BE0056D27E /* Openpay.h */,
+				92617DFE228274BE0056D27E /* Openpay.m */,
+				92617DFA228274BE0056D27E /* OPToken.h */,
+				92617DFB228274BE0056D27E /* OPToken.m */,
+				92617DF42282749C0056D27E /* Openpay.a */,
+				92617D74228223690056D27E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +161,7 @@
 				92617D58228221F70056D27E /* Sources */,
 				92617D59228221F70056D27E /* Frameworks */,
 				92617D5A228221F70056D27E /* Resources */,
+				92ECC5B72283000A0004AF7C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -96,6 +184,7 @@
 				TargetAttributes = {
 					92617D5B228221F70056D27E = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -135,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92617E09228274DF0056D27E /* Openpay in Sources */,
 				92617D62228221F80056D27E /* ViewController.swift in Sources */,
 				92617D60228221F80056D27E /* AppDelegate.swift in Sources */,
 			);
@@ -282,15 +372,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV42WS6MKU;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Openpay.a\"";
 				INFOPLIST_FILE = OpenpayPoC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenpayPoC",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.skylabs.OpenpayPoC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenpayPoC/OpenpayPoC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +401,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV42WS6MKU;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Openpay.a\"";
 				INFOPLIST_FILE = OpenpayPoC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenpayPoC",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.skylabs.OpenpayPoC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenpayPoC/OpenpayPoC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
